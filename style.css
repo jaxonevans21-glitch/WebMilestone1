@@ -64,3 +64,72 @@ th, td {
     border: 1px solid black;
     text-align: left;
 }
+
+/* Quiz input box */
+.text-box {
+    width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 16px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Quiz results */
+#results {
+    margin-top: 25px;
+    padding: 15px;
+    border: 1px solid #999;
+    background-color: #fafafa;
+}
+
+/* RIght answers */
+.correct {
+    color: green;
+    font-weight: bold;
+}
+
+/* Wrong answers */
+.wrong {
+    color: red;
+    font-weight: bold;
+}
+
+/* Pass result */
+.pass {
+    color: green;
+}
+
+/* Fail result */
+.fail {
+    color: red;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
